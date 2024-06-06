@@ -11,9 +11,13 @@ Console.WriteLine("am I learner still = " + amILearner);
 
 
 //4-darsning topshiriqlari
-decimal thirdNumber = 1.5m;
-decimal fourthNumber = 2.5m;
+string  firstInput = Console.ReadLine();
+string  secondInput = Console.ReadLine();
 
+decimal thirdNumber;
+decimal fourthNumber;
+decimal.TryParse(secondInput, out fourthNumber);
+decimal.TryParse(firstInput, out thirdNumber);
 decimal javob = thirdNumber + fourthNumber;
 Console.WriteLine("yechim = " + javob );
 
