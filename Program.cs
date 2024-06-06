@@ -1,4 +1,4 @@
-﻿
+
 
 int FirstNumber = 1995;
 int SecondNumber= 2024;
@@ -19,15 +19,6 @@ Console.WriteLine("yechim = " + javob );
 
 decimal foiz = (thirdNumber * 100) / fourthNumber;
 Console.WriteLine("foizi = " + foiz + " %");
-
-// askar
-
-bool isOlder18 = true;
-bool isYounger27 = false;
-
-Console.WriteLine(!isOlder18);
-
-
 
 
 
