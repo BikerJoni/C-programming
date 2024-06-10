@@ -1,11 +1,1 @@
-using System;
-int age ;
-string name ;
-Console.WriteLine("iltimos malumotlarni kiriting!");
-Console.Write("ism: ");
-name = Console.ReadLine();
-Console.WriteLine("yoshingni giriz");
-Console.Write("age: ");
-age = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(age >18);
-Console.Write("siz armiyaga borolasiz");
+
