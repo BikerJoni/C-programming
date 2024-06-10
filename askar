@@ -1,1 +1,8 @@
+using System;
 
+int askarYoshi;
+Console.WriteLine("yoshingizni kiriting");
+Console.WriteLine("age: ");
+askarYoshi = Convert.ToInt32(Console.ReadLine());
+bool isArmyAgeRange = (askarYoshi>18 && askarYoshi<27);
+Console.WriteLine(isArmyAgeRange);
